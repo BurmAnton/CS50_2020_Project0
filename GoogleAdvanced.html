@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="Google_icon.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Google Advanced Search</title>
+</head>
+<body>
+    
+    <div id="top">
+        <div id="LogoLeftDiv"><img id="LogoLeft" alt="Google" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></div>
+        <a href="Index.html"><div>Search</div></a>
+    </div>
+    <div id="redlabeldiv">
+        <label id="redlabel">Advanced Search</label>  
+    </div>
+    <div id="line"></div>
+    <form id="AdvForm" action="https://www.google.com/search">
+        <div>
+            <div class="input">
+                <div class="label"><label>all these words:</label></div>
+                <input class="AdvSearch" type="text" name="as_q">
+            </div>
+
+            <div class="input">
+                <div class="label"><label>this exact word or phrase:</label></div>
+                <input class="AdvSearch" type="text" name="as_epq">
+            </div>
+
+            <div class="input">
+                <div class="label"><label>any of these words:</label></div>
+                <input class="AdvSearch" type="text" name="as_oq">
+            </div>
+
+            <div class="input">
+                <div class="label"><label>none of these words:</label></div>
+                <input class="AdvSearch" type="text" name="as_eq">
+            </div>
+            <div>
+                <input id="InputAdv" type="submit" value="Advanced Search">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

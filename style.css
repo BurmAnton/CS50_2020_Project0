@@ -1,0 +1,224 @@
+body{
+    height: 100%;
+    margin: 0 0 0 0;
+    font-family: arial,sans-serif;
+}
+#LogoDiv{
+    padding-top: 198px;
+    padding-bottom: 28px;
+}
+#Logo{
+    align-self: center;
+    width: 272px; 
+    height: 92px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#SearchForm{
+    margin: auto;
+}
+#SearchDiv{
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 24px;
+    margin: auto;
+    width: 40%;
+    height: 46px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    flex-wrap: nowrap; 
+}
+#SearchDiv:hover{
+    box-shadow: 0px 0px 8px #b1b0b0;
+}
+#SearchImg{
+    float: left;
+    width: 20px;
+    padding: 3px 0px 0px 15px;
+    margin: 0px;
+    flex-wrap: nowrap;
+}
+#Search{
+    float: right;
+    border: 0px;
+    margin: auto;
+    margin-right: 30px;
+    width: 85%;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: middle;
+    height: 34px;
+}
+#Search:focus{
+    outline: none;
+}
+#SearchSub{
+    align-items:flex-start;
+    color:rgb(95, 99, 104);
+    background-color:rgb(242, 242, 242);
+    background-image:-webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241));
+    border-color:rgb(242, 242, 242);
+    border-width:1px;
+    border-radius:4px;
+    border-style:solid;
+    box-sizing:border-box;
+    display:inline-block;
+    font-family:arial, sans-serif;
+    font-size:14px;
+    font-stretch:100%;
+    font-weight:400;
+    height:36px;
+    line-height:27px;
+    margin-bottom:11px;
+    margin-left:4px;
+    margin-right:4px;
+    margin-top:11px;
+    min-width:54px;
+    padding-left:16px;
+    padding-right:16px;
+    text-align:center;
+}
+#Lucky{
+    align-items:flex-start;
+    color:rgb(95, 99, 104);
+    background-color:rgb(242, 242, 242);
+    background-image:-webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241));
+    border-color:rgb(242, 242, 242);
+    border-width:1px;
+    border-radius:4px;
+    border-style:solid;
+    box-sizing:border-box;
+    display:inline-block;
+    font-family:arial, sans-serif;
+    font-size:14px;
+    font-stretch:100%;
+    font-weight:400;
+    height:36px;
+    line-height:27px;
+    margin-bottom:11px;
+    margin-left:4px;
+    margin-right:4px;
+    margin-top:11px;
+    min-width:54px;
+    padding-left:16px;
+    padding-right:16px;
+    text-align:center;
+}
+#top{
+    flex-wrap: nowrap;
+    text-align: right;
+    margin: auto;
+    align-content: center;
+    height: 60px;
+    background-color: rgb(241, 241, 241);
+    padding: 0;
+    border: 0;
+}
+#LogoLeftDiv{
+    padding-top: 15px;
+}
+#LogoLeft{
+    float: left;
+    width: 92px;
+}
+#LogoLeftDiv{
+    width: auto;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+a{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    width: auto; 
+}
+a div:hover{
+    color: rgba(26, 26, 26, 0.87);;
+    text-decoration:underline;
+}
+a div{
+    float: right;
+    margin: auto;
+    height: auto;
+    padding-top: 5px;
+    padding-right: 30px;
+}
+#redlabeldiv{
+    height: 73px;
+    font-size: 20px;
+    margin-left: 35px;
+    padding-top: 21px;
+    padding-bottom: 29px;
+}
+#line{
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 18px;
+}
+#redlabel{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #d93025;
+    vertical-align: baseline;
+}
+#AdvForm{
+    margin-left: 45px;
+    width: 50%;
+}
+.input{
+    width: 100%;
+    height: 50px;
+    vertical-align: middle;
+}
+.label{
+    padding-top: 5px;
+    min-width: 150px;
+    width: 25%;
+    font-size: 13px;
+    vertical-align: middle;
+    float: left;
+}
+
+.AdvSearch{
+    text-align: left;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    width: 75%;
+    height: 29px;
+    padding: 1px 8px;
+    float: right;
+}   
+
+#InputAdv{
+    width: 120px;
+    height: 30px;
+    display: block;
+    float: right;
+    font-size: 11px;
+    text-align:center;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 144, 254);
+    background-image: -webkit-linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237));
+    border-width: 1px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-color: rgb(48, 121, 237);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    border-style: solid;
+    line-height: 11px;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding-left:12px;
+    padding-right:12px;
+}
+#InputAdv:hover{
+    background-image: -webkit-linear-gradient(top, rgb(77, 144, 254), rgb(47, 125, 250));
+}
+
